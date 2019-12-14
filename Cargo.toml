@@ -18,4 +18,8 @@ path = "src/Day 2/intcode.rs"
 name = "day-3"
 path = "src/Day 3/wires.rs"
 
+[[bin]]
+name = "day-4"
+path = "src/Day 4/main.rs"
+
 [dependencies]
