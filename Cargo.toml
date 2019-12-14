@@ -14,4 +14,8 @@ path = "src/Day 1/fuel.rs"
 name = "day-2"
 path = "src/Day 2/intcode.rs"
 
+[[bin]]
+name = "day-3"
+path = "src/Day 3/wires.rs"
+
 [dependencies]
