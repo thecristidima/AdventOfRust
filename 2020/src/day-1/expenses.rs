@@ -14,7 +14,7 @@ pub fn part_one(input_path: &str, target_sum: i32) {
         let target = target_sum - num;
 
         if set.contains(&target) {
-            println!("[UGLY] Solution for part 1 is: {}", num * target); // 921504
+            println!("Solution for part 1 is: {}", num * target); // 921504
             break;
         } else {
             set.insert(num);
@@ -38,7 +38,7 @@ pub fn part_two(input_path: &str, target_sum: i32) {
             match entry {
                 (a, b, 2) => {
                     if a + b == target {
-                        println!("[UGLY] Solution for part 2 is {}", a * b * num); // 195700142
+                        println!("Solution for part 2 is {}", a * b * num); // 195700142
                         return;
                     }
                 }
