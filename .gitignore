@@ -15,3 +15,8 @@ Cargo.lock
 #already existing elements are commented out
 
 #**/*.rs.bk
+
+# C#-related
+**/.vs/
+**/bin/
+**/obj/
