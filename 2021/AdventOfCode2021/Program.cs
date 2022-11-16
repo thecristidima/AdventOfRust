@@ -6,4 +6,5 @@ Console.WriteLine("Advent of Code 2021 - C# Edition");
 //Day2.Execute();
 //Day3.Execute();
 //Day4.Execute();
-Day5.Execute();
+//Day5.Execute();
+Day6.Execute();
