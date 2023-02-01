@@ -6,6 +6,7 @@ namespace AdventOfCode2022.Days
         {
             Console.WriteLine("Day 1, part 1: " + Part1(FullInput));
             Console.WriteLine("Day 1, part 2: " + Part2(FullInput));
+            Console.WriteLine();
         }
 
         private static int Part1(string input)

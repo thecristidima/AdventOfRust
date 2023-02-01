@@ -6,6 +6,7 @@
         {
             Console.WriteLine($"Day 2, part 1: " + Part1(FullInput));
             Console.WriteLine($"Day 2, part 2: " + Part2(FullInput));
+            Console.WriteLine();
         }
 
         public static int Part1(string input)
