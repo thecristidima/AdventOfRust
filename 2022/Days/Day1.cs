@@ -1,26 +1,26 @@
 namespace AdventOfCode2022.Days
 {
-    public class Day1
+    static class Day1
     {
-        public void Solve()
+        public static void Solve()
         {
             Console.WriteLine("Day 1, part 1: " + Part1(FullInput));
             Console.WriteLine("Day 1, part 2: " + Part2(FullInput));
         }
 
-        private int Part1(string input)
+        private static int Part1(string input)
         {
             var elfCalories = input.Split(Environment.NewLine + Environment.NewLine);
             return GetCalorieCount(elfCalories.MaxBy(GetCalorieCount)!);
         }
 
-        private int Part2(string input)
+        private static int Part2(string input)
         {
             var elfCalories = input.Split(Environment.NewLine + Environment.NewLine);
             return elfCalories.OrderBy(GetCalorieCount).TakeLast(3).Select(GetCalorieCount).Sum();
         }
 
-        private int GetCalorieCount(string input)
+        private static int GetCalorieCount(string input)
             => input.Split(Environment.NewLine)
                     .Where(x => !string.IsNullOrEmpty(x))
                     .Select(int.Parse)
