@@ -109,7 +109,7 @@
 
         #region Input
 
-        private const string ShortInput = @"
+        private const string SmallInput = @"
             A Y
             B X
             C Z";

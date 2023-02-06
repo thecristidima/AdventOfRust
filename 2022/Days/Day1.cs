@@ -29,7 +29,7 @@ namespace AdventOfCode2022.Days
 
         #region Input
 
-        private const string ShortInput = @"
+        private const string SmallInput = @"
             1000
             2000
             3000
