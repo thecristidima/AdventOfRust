@@ -42,7 +42,7 @@
 
         #region Input
 
-        private const string SmallInput = @"
+        private const string ShortInput = @"
             vJrwpWtwJgWrhcsFMMfFFhFp
             jqHRNqRjqzjGDLGLrsFMfFZSrLrFZsSL
             PmmdzqPrVvPwwTWBwg

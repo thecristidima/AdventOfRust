@@ -39,7 +39,7 @@
 
         #region Input
 
-        private const string SmallInput = @"
+        private const string ShortInput = @"
             2-4,6-8
             2-3,4-5
             5-7,7-9

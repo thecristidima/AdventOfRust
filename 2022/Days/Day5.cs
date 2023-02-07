@@ -9,6 +9,7 @@ namespace AdventOfCode2022.Days
         {
             Console.WriteLine("Day 5, part 1: " + Solve(FullInput));
             Console.WriteLine("Day 5, part 2: " + Solve(FullInput, reverseStack: true));
+            Console.WriteLine();
         }
 
         private static string Solve(string input, bool reverseStack = false)
@@ -55,7 +56,7 @@ namespace AdventOfCode2022.Days
 
         #region Input
 
-        private const string SmallInput = @"
+        private const string ShortInput = @"
             Z N
             M C D
             P
