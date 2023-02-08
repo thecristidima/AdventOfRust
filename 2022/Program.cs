@@ -8,3 +8,4 @@ Day5.Solve();
 Day6.Solve();
 Day7.Solve();
 Day8.Solve();
+Day9.Solve();
